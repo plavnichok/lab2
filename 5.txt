@@ -3,7 +3,7 @@ md Perminova
 cd Perminova
 md Ekaterina
 md Antonovna
-echo > 08082004.txt
+echo > 03122003.txt
 cd Antonovna
 echo > 4060.txt
 cd..
