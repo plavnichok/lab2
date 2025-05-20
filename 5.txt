@@ -1,0 +1,19 @@
+echo off
+md Perminova
+cd Perminova
+md Ekaterina
+md Antonovna
+echo > 08082004.txt
+cd Antonovna
+echo > 4060.txt
+cd..
+cd..
+pause
+del Perminova /S /Q /F
+pause
+cd Perminova
+rd Antonovna
+rd Ekaterina
+cd..
+rd Perminova
+pause
